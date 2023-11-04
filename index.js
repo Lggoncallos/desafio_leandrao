@@ -1,11 +1,10 @@
-// Variáveis de entrada
-const nome = "Leandro";  // Substitua "Nome do Herói" pelo nome real do herói
-const xp = 5000;  // Substitua 5000 pela quantidade real de experiência do herói
 
-// Variável para armazenar o nível
+const nome = "Leandro";  
+const xp = 5000;  
+
 let nivel;
 
-// Estrutura de decisão para determinar o nível
+
 if (xp < 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
